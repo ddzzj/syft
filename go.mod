@@ -30,21 +30,21 @@ require (
 	// pinned to pull in 386 arch fix: https://github.com/scylladb/go-set/commit/cc7b2070d91ebf40d233207b633e28f5bd8f03a5
 	github.com/scylladb/go-set v1.0.3-0.20200225121959-cc7b2070d91e
 	github.com/sergi/go-diff v1.3.1
-	github.com/sirupsen/logrus v1.9.0
+	github.com/sirupsen/logrus v1.9.3
 	github.com/spdx/tools-golang v0.5.0
 	github.com/spf13/afero v1.9.5
 	github.com/spf13/cobra v1.7.0
 	github.com/spf13/pflag v1.0.5
 	github.com/spf13/viper v1.15.0
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.4
 	github.com/vifraa/gopom v0.2.1
 	github.com/wagoodman/go-partybus v0.0.0-20210627031916-db1f5573bbc5
 	github.com/wagoodman/go-progress v0.0.0-20230301185719-21920a456ad5
 	github.com/wagoodman/jotframe v0.0.0-20211129225309-56b0d0a4aebb
 	github.com/xeipuuv/gojsonschema v1.2.0
 	golang.org/x/mod v0.10.0
-	golang.org/x/net v0.9.0
-	golang.org/x/term v0.7.0
+	golang.org/x/net v0.17.0
+	golang.org/x/term v0.13.0
 	gopkg.in/yaml.v2 v2.4.0
 )
 
@@ -72,7 +72,7 @@ require (
 	github.com/Microsoft/go-winio v0.6.0 // indirect
 	github.com/anchore/go-struct-converter v0.0.0-20221118182256-c68fdcfa2092 // indirect
 	github.com/becheran/wildmatch-go v1.0.0 // indirect
-	github.com/containerd/containerd v1.6.18 // indirect
+	github.com/containerd/containerd v1.6.26 // indirect
 	github.com/containerd/stargz-snapshotter/estargz v0.14.3 // indirect
 	github.com/davecgh/go-spew v1.1.1 // indirect
 	github.com/docker/cli v23.0.1+incompatible // indirect
@@ -105,7 +105,7 @@ require (
 	github.com/mitchellh/reflectwalk v1.0.2 // indirect
 	github.com/moby/term v0.0.0-20210619224110-3f7ff695adc6 // indirect
 	github.com/nwaples/rardecode v1.1.0 // indirect
-	github.com/opencontainers/image-spec v1.1.0-rc2 // indirect
+	github.com/opencontainers/image-spec v1.1.0-rc2.0.20221005185240-3a7f492d3f1b // indirect
 	github.com/pelletier/go-toml/v2 v2.0.6 // indirect
 	github.com/pierrec/lz4/v4 v4.1.15 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
@@ -126,14 +126,15 @@ require (
 	github.com/xeipuuv/gojsonreference v0.0.0-20180127040603-bd5ef7bd5415 // indirect
 	github.com/xi2/xz v0.0.0-20171230120015-48954b6210f8 // indirect
 	github.com/xo/terminfo v0.0.0-20210125001918-ca9a967f8778 // indirect
-	golang.org/x/sync v0.1.0 // indirect
-	golang.org/x/sys v0.7.0 // indirect
-	golang.org/x/text v0.9.0 // indirect
+	go.uber.org/goleak v1.1.12 // indirect
+	golang.org/x/sync v0.3.0 // indirect
+	golang.org/x/sys v0.13.0 // indirect
+	golang.org/x/text v0.13.0 // indirect
 	golang.org/x/tools v0.7.0 // indirect
 	golang.org/x/xerrors v0.0.0-20220907171357-04be3eba64a2 // indirect
-	google.golang.org/genproto v0.0.0-20221227171554-f9683d7f8bef // indirect
-	google.golang.org/grpc v1.52.0 // indirect
-	google.golang.org/protobuf v1.29.0 // indirect
+	google.golang.org/genproto/googleapis/rpc v0.0.0-20230711160842-782d3b101e98 // indirect
+	google.golang.org/grpc v1.58.3 // indirect
+	google.golang.org/protobuf v1.31.0 // indirect
 	gopkg.in/ini.v1 v1.67.0 // indirect
 	lukechampine.com/uint128 v1.1.1 // indirect
 	modernc.org/cc/v3 v3.36.0 // indirect
@@ -152,7 +153,7 @@ require (
 	// go: warning: github.com/andybalholm/brotli@v1.0.1: retracted by module author: occasional panics and data corruption
 	github.com/andybalholm/brotli v1.0.4 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	golang.org/x/crypto v0.3.0 // indirect
+	golang.org/x/crypto v0.14.0 // indirect
 )
 
 retract (
